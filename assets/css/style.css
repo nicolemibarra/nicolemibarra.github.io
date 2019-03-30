@@ -28,7 +28,7 @@ p:last-child {
 h1, h2, h3 {
     font-family: 'Georgia', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 700;
-    color: #0a537e ;
+    color: #104d55;
 }
 
 h1 {
@@ -36,10 +36,12 @@ h1 {
     line-height: 49px;
     border-bottom: 3px solid #ddd;
     padding-bottom: 20px;
+    text-shadow: 3px 3px #999;
 }
 
 h2, h3 {
     font-size: 22px;
+    text-shadow: 3px 3px #999;
 }
 
 /*headers*/
@@ -49,7 +51,7 @@ h2, h3 {
     z-index: 99;
     color: #fff;
     overflow: auto;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #777;
 /* position: fixed; */
     width: 100%;
     
@@ -58,7 +60,7 @@ h2, h3 {
 #logo {
     width: 250px;
     height: 90px;
-    background:#0a537e;
+    background:#104d55;
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: center;
@@ -76,11 +78,11 @@ nav {
 }
 
 nav a {
-    color: #0a537e;
+    color: #104d55;
     text-decoration: none;
     margin-left: 15px;
     display: inline block;
-    border-left: 1px solid #efefef;
+    border-left: 1px solid #fff;
     padding-left: 15px;
     line-height: 18px;
 }
@@ -101,8 +103,8 @@ nav a:first-child {
     width: 100%;
     max-width: 650px;
     float: left;
-    border: 1px solid #ddd;
-    border-radius: 5%;
+    border: 1px solid #777;
+    border-radius: 5%;  
 }
 
 .auth-image {
@@ -119,15 +121,15 @@ nav a:first-child {
     background: #fff;
     padding: 30px;
     width: 100%;
-    max-width: 270px;
+    max-width: 200px;
     float: right;
-    border: 1px solid #ddd;
+    border: 1px solid #777;
     margin-bottom: 20px;
     border-radius: 5%;
 }
 
 h3, .sidebar, h2 {
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #777;
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
@@ -150,8 +152,8 @@ footer {
     color: #fff;
     padding: 30px 0;
     clear: both;
-    border-top: 8px solid#0a537e ;
-    color: #ccc;
+    border-top: 8px solid #104d55 ;
+    color: #104d55;
     font-size: 12px;
     text-align: center;
  /* position: fixed; */
@@ -195,45 +197,6 @@ margin-right: 40px;
     border-radius: 5%;
 }
 
-/*contact*/
-#contact-form ul {
-    margin-bottom: 20px;
-}
-
-#contact-form li {
-    margin-bottom: 10px;
-}
-
-label,
-input[type=text],
-input[type=email],
-textarea {
-    display: block;
-    width: 100%
-}
-
-input[type=text],
-input[type=email],
-textarea{
-    height: 35px;
-    border: 1px solid #ddd;
-    padding: 0 10px;
-    font-size: 14px;
-}
-
-textarea{
-    height: 200px;
-}
-
-input[type=submit] {
-    background: #0a597e ;
-    border: 0 none;
-    color: #fff;
-    font-size: 18px;
-    padding: 10px 30px;
-    cursor: pointer;
-}
-
 /* media queries */
 @media screen and (max-width: 980px) {
     header {
@@ -258,7 +221,7 @@ input[type=submit] {
     }
 
     .social {
-        width: 25%;
+        width: 10%;
     }
 }
 
